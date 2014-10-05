@@ -29,7 +29,7 @@ public class SchoolApp extends Activity {
         username = btUsername.getText().toString();
         password = btPassword.getText().toString();
         Toast.makeText(SchoolApp.this, "Login", Toast.LENGTH_LONG).show();
-        Intent intent = new Intent(this, test.class);
+        Intent intent = new Intent(this, Home.class);
         startActivity(intent);
     }
 }
