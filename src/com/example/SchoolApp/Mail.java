@@ -17,7 +17,7 @@ public class Mail extends Activity {
         webView= (WebView) findViewById(R.id.webView);
 
         webView.setWebViewClient(new WebViewClient());
-        webView.loadUrl("https://google.at");
+        webView.loadUrl("https://supplierplan.htl-kaindorf.at/supp_neu/default.htm");
         //https://supplierplan.htl-kaindorf.at/supp_neu/41/c/c00013.htm
     }
 }
