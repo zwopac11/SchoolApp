@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>        <!--4d1056-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="#700d4e"
+              android:weightSum="1">
+
+    <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:stretchColumns="*"
+            android:weightSum="7" >
+        <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1" >
+            <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/logo_htl"
+                    android:id="@+id/logoHtl"
+                    android:visibility="visible"/>
+        </TableRow>
+        <TableRow
+                android:id="@+id/tableRow2"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight=".02" >
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Username:"
+                android:id="@+id/tvUsername"
+                android:layout_gravity="left"/>
+        </TableRow>
+        <TableRow
+                android:id="@+id/tableRow3"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight=".02" >
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Username"
+                android:id="@+id/etUsername"/>
+        </TableRow>
+        <TableRow
+                android:id="@+id/tableRow4"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight=".02" >
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Passwort:"
+                    android:id="@+id/tvPasswort"
+                    android:layout_gravity="left"/>
+        </TableRow>
+        <TableRow
+                android:id="@+id/tableRow5"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight=".02" >
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"
+                    android:hint="Passwort"
+                    android:ems="10"
+                    android:id="@+id/etPasswort"/>
+        </TableRow>
+        <TableRow
+                android:id="@+id/tableRow6"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight=".02" >
+            <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="Log in"
+                    android:id="@+id/btLogin"
+                    android:onClick="onLogin"/>
+        </TableRow>
+        <TableRow
+                android:id="@+id/tableRow7"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight=".01" >
+            <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Angemeldet bleiben?"
+                    android:id="@+id/checkBox" style="@android:style/Holo.ButtonBar"
+                    android:longClickable="false"
+                    android:checked="true"
+                    android:layout_gravity="left"/>
+        </TableRow>
+    </TableLayout>
+</LinearLayout>
+
