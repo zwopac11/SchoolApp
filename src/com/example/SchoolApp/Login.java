@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
-public class SchoolApp extends Activity {
+public class Login extends Activity {
     /**
      * Called when the activity is first created.
      */
@@ -20,7 +20,7 @@ public class SchoolApp extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.main);
+        setContentView(R.layout.login);
     }
     public void onLogin(View view)
     {
@@ -28,7 +28,7 @@ public class SchoolApp extends Activity {
         btPassword=(EditText)findViewById(R.id.etPasswort);
         username = btUsername.getText().toString();
         password = btPassword.getText().toString();
-        Toast.makeText(SchoolApp.this, "Login", Toast.LENGTH_LONG).show();
+        Toast.makeText(Login.this, "Login", Toast.LENGTH_LONG).show();
         Intent intent = new Intent(this, Home.class);
         startActivity(intent);
     }
