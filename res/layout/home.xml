@@ -30,7 +30,8 @@
                     android:layout_height="fill_parent"
                     android:id="@+id/imageButton2"
                     android:src="@drawable/simple18"
-                    android:scaleType="fitCenter"/>
+                    android:scaleType="fitCenter"
+                    android:onClick="onWebsite"/>
         </TableRow>
         <TableRow
                 android:id="@+id/tableRow2"
