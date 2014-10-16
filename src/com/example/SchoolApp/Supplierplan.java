@@ -13,7 +13,7 @@ public class Supplierplan extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState );
 
-        setContentView(R.layout.supplierplan);
+        setContentView(R.layout.mail);
 
         webView= (WebView) findViewById(R.id.webView);
 
@@ -21,5 +21,6 @@ public class Supplierplan extends Activity {
         webView.loadUrl("https://supplierplan.htl-kaindorf.at/supp_neu/default.htm");
         //https://supplierplan.htl-kaindorf.at/supp_neu/41/c/c00013.htm
         //hallo
+        //Kommentar
     }
 }
