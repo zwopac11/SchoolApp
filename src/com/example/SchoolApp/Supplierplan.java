@@ -23,12 +23,13 @@ public class Supplierplan extends Activity {
         //hallo
         //Kommentar
         //hi
-        //Kommentar 2
         // Freidoun war hier
         //toll
         // hallo helena
         //hi freidoun
         // hi paul
+        // asdf
+        //123
         //Kommentar3
         
 
