@@ -16,6 +16,7 @@ public class Login extends Activity {
     private EditText btPassword;
     public static String username;
     public static String password;
+    //public static String
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
