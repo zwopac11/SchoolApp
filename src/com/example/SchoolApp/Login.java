@@ -19,7 +19,7 @@ public class Login extends Activity {
     private EditText btPassword;
     public static String username;
     public static String password;
-    public static String[] berechtigte ={"paul", "freidoun" ,"thomas","julian","helenal","claudio"};
+    public static String[] berechtigte ={"paul", "freidoun" ,"thomas","julian","helena","claudio"};
    Student st;
 
     @Override
