@@ -32,6 +32,7 @@ public class Login extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.login);
     }
+
     public void onLogin(View view)
     {
         btUsername=(EditText)findViewById(R.id.etUsername);
@@ -50,5 +51,15 @@ public class Login extends Activity {
 
         Intent intent = new Intent(this, Home.class);
         startActivity(intent);
+    }
+
+    public String getUsername()
+    {
+        return username;
+    }
+
+    public String getPassword()
+    {
+        return password;
     }
 }

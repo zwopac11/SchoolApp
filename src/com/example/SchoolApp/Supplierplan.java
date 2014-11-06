@@ -6,8 +6,11 @@ import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
 public class Supplierplan extends Activity {
-
+    Login login=new Login();
     private WebView webView;
+
+
+
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -18,22 +21,8 @@ public class Supplierplan extends Activity {
         webView= (WebView) findViewById(R.id.webView);
 
         webView.setWebViewClient(new WebViewClient());
-        webView.loadUrl("https://supplierplan.htl-kaindorf.at/supp_neu/default.htm");
-
-
+        webView.setHttpAuthUsernamePassword("supplierplan.htl-kaindorf.at","",login.getUsername(),login.getPassword());
+        //webView.loadUrl("https://supplierplan.htl-kaindorf.at/supp_neu/default.htm");
         //https://supplierplan.htl-kaindorf.at/supp_neu/41/c/c00013.htm
-        //hallo
-        //Kommentar
-        //hi
-        // Freidoun war hier
-        //toll
-        // hallo helena
-        //hi freidoun
-        // hi paul
-        // asdf
-        //123
-        //Kommentar3
-        
-
     }
 }
