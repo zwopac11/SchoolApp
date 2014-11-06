@@ -1,25 +1,22 @@
 package com.example.SchoolApp;
 
-/**
- * Created by Freidoun Heidary on 10/16/2014.
- */
 public class Student {
-    private String usename;
+    private String username;
     private String password;
 
-    public Student(String usename, String password) {
-        this.usename = usename; this.password = password;
+    public Student(String username, String password) {
+        this.username = username; this.password = password;
     }
 
 
     public String getUsename() {
 
-        return usename;
+        return username;
     }
 
     public void setUsename(String usename) {
 
-        this.usename = usename;
+        this.username = usename;
     }
 
     public String getPassword() {
