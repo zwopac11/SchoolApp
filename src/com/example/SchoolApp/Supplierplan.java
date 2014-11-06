@@ -19,6 +19,8 @@ public class Supplierplan extends Activity {
 
         webView.setWebViewClient(new WebViewClient());
         webView.loadUrl("https://supplierplan.htl-kaindorf.at/supp_neu/default.htm");
+
+
         //https://supplierplan.htl-kaindorf.at/supp_neu/41/c/c00013.htm
         //hallo
         //Kommentar
