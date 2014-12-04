@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 
 public class Home extends Activity {
@@ -22,5 +23,14 @@ public class Home extends Activity {
         Uri uri = Uri.parse("https://www.htl-kaindorf.at/index.php?Itemid=101");
         Intent intent = new Intent(Intent.ACTION_VIEW, uri);
         startActivity(intent);
+    }
+
+    public void onPlan(View view)
+    {
+        //Log.v("onPlan", "onPlan");
+        Intent intent = new Intent(this, Plan.class);
+        startActivity(intent);
+        //Log.v("Plan", "Plan");
+        //setContentView(R.layout.plan);
     }
 }

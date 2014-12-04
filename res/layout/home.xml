@@ -43,7 +43,7 @@
                     android:layout_height="fill_parent"
                     android:id="@+id/imageButton3"
                     android:src="@drawable/simple18"
-                    android:scaleType="fitCenter"/>
+                    android:scaleType="fitCenter" android:onClick="onPlan"/>
             <ImageButton
                     android:layout_width="wrap_content"
                     android:layout_height="fill_parent"

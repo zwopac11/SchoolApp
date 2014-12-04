@@ -1,4 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">SchoolApp</string>
+    <string name="country_prompt">Choose a country</string>
+
+        <string-array name="country_arrays">
+            <item>Wähle einen Raum aus</item>
+            <item>Turnsaal</item>
+            <item>Chemiesaal</item>
+            <item>Physiksaal</item>
+            <item>EDV1</item>
+            <item>EDV2</item>
+            <item>EDV3</item>
+            <item>EDV4</item>
+            <item>Tinf-Labor</item>
+            <item>Cisco-Labor</item>
+            <item>Sektreteriat</item>
+            <item>Cafeteria</item>
+            <item>Werkstätten</item>
+        </string-array>
+
 </resources>
