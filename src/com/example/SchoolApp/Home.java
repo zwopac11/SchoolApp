@@ -15,6 +15,11 @@ public class Home extends Activity {
     }
     public void onCal(View view)
     {
+        Intent intent = new Intent(this, Supplierplan.class);
+        startActivity(intent);
+    }
+    public void onMail(View view)
+    {
         Intent intent = new Intent(this, Mail.class);
         startActivity(intent);
     }

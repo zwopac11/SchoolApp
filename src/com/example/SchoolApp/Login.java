@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.webkit.HttpAuthHandler;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.EditText;
@@ -45,7 +46,17 @@ public class Login extends Activity {
         webView= (WebView) findViewById(R.id.webView);
 
         webView.setWebViewClient(new WebViewClient());
-        webView.loadUrl("http://www.htl-kaindorf.at/");
+        //mWebView.setHttpAuthUsernamePassword("api.test.com", "", "me@test.com", "mypassword");
+
+
+       /* webView.setWebViewClient(new WebViewClient(){
+             public void onReceivedHttpAuthRequest(WebView view,HttpAuthHandler handler,String host, String realm)
+             {
+                 handler.proceed(username,password);
+             }
+         });*/
+        //webView.setHttpAuthUsernamePassword("http://www.htl-kaindorf.at/", "", username, password);
+        //webView.loadUrl("http://www.htl-kaindorf.at/");
 
         Toast.makeText(Login.this, "Login", Toast.LENGTH_LONG).show();
 
