@@ -68,7 +68,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="fill_parent"
                     android:id="@+id/imageButton6"
-                    android:src="@drawable/simple18"
+                    android:src="@drawable/edumoodle"
                     android:scaleType="fitCenter"/>
         </TableRow>
    </TableLayout>
