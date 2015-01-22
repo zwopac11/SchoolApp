@@ -69,7 +69,8 @@
                     android:layout_height="fill_parent"
                     android:id="@+id/imageButton6"
                     android:src="@drawable/edumoodle"
-                    android:scaleType="fitCenter"/>
+                    android:scaleType="fitCenter"
+                    android:onClick="onEdumoodle"/>
         </TableRow>
    </TableLayout>
 </LinearLayout>

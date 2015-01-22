@@ -38,4 +38,10 @@ public class Home extends Activity {
         //Log.v("Plan", "Plan");
         //setContentView(R.layout.plan);
     }
+    public void onEdumoodle(View view)
+    {
+
+        Intent intent = new Intent(this, Edumoodle.class);
+        startActivity(intent);
+    }
 }
