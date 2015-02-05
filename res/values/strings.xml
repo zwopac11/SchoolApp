@@ -6,17 +6,22 @@
         <string-array name="country_arrays">
             <item>Wähle einen Raum aus</item>
             <item>Turnsaal</item>
+            <item>Schularzt</item>
+            <item>Schulwart</item>
             <item>Chemiesaal</item>
             <item>Physiksaal</item>
+            <item>Bibliothek</item>
             <item>EDV1</item>
             <item>EDV2</item>
             <item>EDV3</item>
             <item>EDV4</item>
             <item>Tinf-Labor</item>
             <item>Cisco-Labor</item>
-            <item>Sektreteriat</item>
+            <item>Sekretariat</item>
             <item>Cafeteria</item>
             <item>Werkstätten</item>
+            <item>KÜ-Saal</item>
+            <item>PRR-Labor</item>
         </string-array>
 
 </resources>

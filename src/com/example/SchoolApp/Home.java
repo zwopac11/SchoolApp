@@ -30,6 +30,13 @@ public class Home extends Activity {
         startActivity(intent);
     }
 
+    public void onInfoboard(View view)
+    {
+        Uri uri = Uri.parse("http://infoboardhtl.bplaced.com");
+        Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+        startActivity(intent);
+    }
+
     public void onPlan(View view)
     {
         //Log.v("onPlan", "onPlan");
